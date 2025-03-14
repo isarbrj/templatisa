@@ -26,6 +26,9 @@ export default function Post({ props }) {
                     onMouseLeave={() => setIsHovered(false)}
                 />
             </div>
+            <div className="grid items-center  justify-items-center font-[family-name: poppins]">
+                    {props.text}
+                </div>
         </div>
     );
 }
